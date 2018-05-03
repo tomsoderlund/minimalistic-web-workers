@@ -2,7 +2,7 @@
 
 var myWorker;
 
-const toggleElementDisabled = function (elementId) {
+var toggleElementDisabled = function (elementId) {
 	document.getElementById(elementId).getAttribute('disabled') !== null
 		? document.getElementById(elementId).removeAttribute('disabled')
 		: document.getElementById(elementId).setAttribute('disabled', true);
